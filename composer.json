@@ -1,0 +1,32 @@
+{
+  "name": "JeffersonCarvalho/yii2-gentelella",
+  "description": "Free admin template for backend",
+  "keywords": ["yii2","extension","backend","bootsprap3","admin","gentelella","theme","asset"],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Jefferson Carvalho",
+      "homepage": "http://www.jeffersoncarvalho.com.br/"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.0",
+    "yiisoft/yii2-bootstrap": "~2.0.0",
+    "rmrevin/yii2-fontawesome": "~3.3",
+    "bower-asset/gentelella": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "jeffersoncarvalho\\gentelella\\": "src"
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
